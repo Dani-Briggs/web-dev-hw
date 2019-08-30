@@ -1,0 +1,13 @@
+Dani Briggs
+
+How is the web different than the internet?
+The internet is a global network that connects everyone through devices like your phone, computer, etc. Whereas the web is used to organize information on the internet in a clear and easy way.  
+
+Briefly describe how the internet works.
+The internet is a series of networks that help devices. It's like a highway for intromation that's stored in an electoric device. 
+
+What is a directory, and what is its relationship to files?
+A directory is simliar to a folder. They both store information inside themselves, but a directory is more like a path. Clicking one path is going to lead to another path and another, etc. A directory can also have a "relationships" with the files stored inside them. Such relationships are "parent", "child" and "grandparent". It's to show you whats stored in what folder.
+
+Why is using a VCS beneficial?
+It helps track your changes to your work over time so, you can figure out what change you made that messed up your code, for example. You can also revert back to those changes. You can also share work with others and use commerical tools for free.
