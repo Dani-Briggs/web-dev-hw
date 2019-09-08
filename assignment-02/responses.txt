@@ -1,1 +1,19 @@
+Briefly describe one way how data travels on the internet.
 
+Data is sent through the internet in Binary code (1s and 0s).
+This code can travel through the internet in three ways. One way is through WiFi.
+Wifi is basically radio waves that can connect to other devices in a short range.
+
+What is the relationship between an IP address and the DNS?
+
+The DNS helps your device connect to other IP addresses. The DNS is like your Uber driver for getting your
+device to website to website.
+
+What is a cookie?
+
+A cookie is data the websites use to remember who you are. These are
+usually for websites that you can make an account on. 
+
+List the three basic parts of a URL.
+
+There's the protocol, the domain and the paths.
