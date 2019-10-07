@@ -5,19 +5,53 @@
     <meta name="description" content="Assignment 06">
     <meta name="author" content="Dani Briggs">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Rockin Rudy's From </title>
+    <style>
+    table, th, td {
+      border: 2px solid blue;
+      }
+    </style>
+    <title> Rockin Rudy's Form </title>
   </head>
   <body>
       <h1> Contact Page </h1>
 
-      <h2> Email Us </h2>
+      <h2> Where to Find Us </h2>
         <p><a href="mailto:info@rockinrudys.com">info@rockinrudys.com</a></p>
         <address>
-          The University of Montana<br />
-          32 Campus Dr<br />
-          Missoula, MT 59812
-        </address>
+          Phone #: 406-542-0077<br />
+          237 Blaine St.<br />
+          Missoula, MT 59801
+        </address> <br />
 
+        <table>
+      <tr>
+        <th></th>
+        <th scope="col">Monday - Saturday</th>
+        <th scope="col">Sunday</th>
+      </tr>
+      <tr>
+        <th scope="row">Hours</th>
+        <td>9am – 9pm</td>
+        <td>11am – 6pm</td>
+      </tr>
+        </table>
+    <form action="https://www.example.com/subscribe.php" method="post">
 
+      <p>Would You like to be Apart of Our Mailing List ?</p>
+      <input type="radio" name="level" value="yes" /> Yes
+        <br />
+      <input type="radio" name="level" value="no"  /> No
+
+      <p>
+        If Yes, Submit Email Address Here
+        <input type="text" name="name" id="test-text"  placeholder="JSmith@fake-email.com"/>
+      </p>
+      <p>
+        Have More Questions for Us? Type Them Here <br />
+        <textarea name="comments" id="test-textarea">Questions?</textarea>
+      </p>
+
+      <input type="image" src="./images/submit-button.png" alt="submit button image" width="200" height="200" />
+      </form>
     </body>
 </html>
