@@ -1,11 +1,15 @@
-# Assignment 5
+# Assignment 6
 ## Dani Briggs
 
-How many main document <head> and <body> elements can a page have? How are these elements different, or what role do they play?
-  <head> has 5 main elements and <body> has multiple elements within structural and semantic markup. The <head> elements are for the coders eyes whereas the <body> elements are for anyone who uses the website. The <body> elements hold everything thats going to be shown and The <head> elements allow them to be shown.
+Describe any forms you've come across while browsing the web. What purposes do the serve?
 
-Describe the difference between structural and semantic markup.
-  Structural is the basic strucure of the information of the markup; Headings, Paragraphs, Breaks, and Lists. Semantic is used to reinforce the information within the markup, using bolds, italics and more.
+I've seen mulitple forms on websites that I've been on. They're mostly for information regarding Contact info. For example, a text box to put your email in for a mailing list. It creates a space on your website to collect information.
 
-Free Response: Summarize your work cycle for this assignment.
-  The first thing I did was get a recipe. I chose Pizza because I like pizza. From then on, I went through the steps on moodle for the assignment. There weren't any hiccups, except that my picture won't show up. I had the same problem for the last assignment too.
+List examples of a text, selection, and button input, and where they might be used.
+
+Passwords, Usernames, Emails, Mulitple Choice Test, Setting Dates. Any of those could be used in a School, Business, or Store website.
+
+
+Free Response: Summarize your work cycle for this assignment
+
+I started with the Index and worked my way down the steps on moodle. After that I did the same for the Readme.
