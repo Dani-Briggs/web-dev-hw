@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Gruppo&display=swap');
 .main-container {
    background-color: #121729;
-   max-width: 300px;
+   max-width: 800px;
+   width: 500px;
+   height: 200px;
+   font-family:'Gruppo','Roboto', sans-serif;
+   text-align: center;
    padding: 2em;
    margin: auto;
    border-width: 1em;
    border-style: outset;
    border-color: #373E42;
    position: fixed;
+   left: 500px;
+   top: 16em;
+}
+.main-container a {
+    color: #fff;
+    font-size: 58pt;
+    text-decoration: none;
 }
 
 .image-one {
