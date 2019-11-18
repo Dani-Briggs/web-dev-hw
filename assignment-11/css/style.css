@@ -1,91 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Gruppo&display=swap');
+.main-container {
+   background-color: #121729;
+   max-width: 300px;
+   padding: 2em;
+   margin: auto;
+   border-width: 1em;
+   border-style: outset;
+   border-color: #373E42;
+   position: fixed;
+}
 
-/* This is the Flannel Background */
-.canvas+.h1+.p {
-     background-color:rgb(135,29,29);
-     height: 700px;
-     width: 1510px;
-     position: absolute;
-   }
+.image-one {
+   width: 800px;
+   min-width: 200px;
+   max-width: 800px;
+   height: 800px;
+   position: fixed;
+   left: 0px;
+}
 
-   .rectangle-one {
-     background-color: black;
-     opacity: 0.5;
-     height: 700px;
-     width: 150px;
-     position: absolute;
+.image-two {
+   width: 800px;
+   min-width: 200px;
+   max-width: 800px;
+   height: 800px;
+   position: fixed;
+   left: 800px;
+}
 
-   }
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #121729;
+    font-family:'Gruppo','Roboto', sans-serif;
+    height: 6em;
+    width: 100%;
+    text-align: right;
+    border-width: .1em;
+    border-style: outset;
+    border-color: #373E42;
+}
 
-   .rectangle-two {
-     background-color: black;
-     opacity: 0.5;
-     height: 150px;
-     width: 1600px;
-     position: absolute;
+.menu-item, .site-name {
+    display: inline-block;
+    margin: 2em 1.2em;
+    min-width: 9em;
+    text-align: center;
+    background-color: #11131a;
+    padding: 0.5em 1em;
+    border-width: .1em;
+    border-style: outset;
+    border-color: #373E42;
+}
 
-   }
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
 
-   .rectangle-three {
-     background-color: black;
-     opacity: 0.5;
-     height: 700px;
-     width: 150px;
-     position: absolute;
-     left: 700px;
-   }
+.menu-item:hover {
+    background-color: #cd1c1c;
+}
+.site-name {
+    float: left;
+    left: 10px;
+    padding-right: 1em;
+    color: #cd1c1c;
+}
+.dropdown {
+    display: inline-block;
+}
 
-   .rectangle-five {
-     background-color: black;
-     opacity: 0.5;
-     height: 700px;
-     width: 100px;
-     position: absolute;
-     left: 1420px;
-   }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #aba9a9;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+}
 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-   .rectangle-seven {
-     background-color: black;
-     opacity: 0.5;
-     height: 150px;
-     width: 1600px;
-     position: absolute;
-     margin-top: 400px;
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
 
-   }
-
-   /* Text */
-
-   body {
-   font-family: Arial;
-    background-color:rgb(135,29,29)
-   }
-   h1 {
-      color: rgb(249, 245, 245);
-      font-size: 54px;
-      position: absolute;
-   }
-   .p {
-   color:rgb(129, 134, 138);
-   font-size: 25px;
-   position: absolute;
-   margin-top: 450px;
-   left: 50px;
-   }
-   /* image */
-
-   .image-one{
-     height: 300px;
-     weight: 300px;
-     position: absolute;
-     margin-top: 130px;
-     left: 250px;
-   }
-
-   .image-two{
-     height: 300px;
-     weight: 300px;
-     position: absolute;
-     margin-top: 130px;
-     left: 850px;
-   }
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #f11212;
+    background-color: #0d0c0c;
+}
