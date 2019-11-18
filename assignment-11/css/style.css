@@ -1,0 +1,91 @@
+
+/* This is the Flannel Background */
+.canvas+.h1+.p {
+     background-color:rgb(135,29,29);
+     height: 700px;
+     width: 1510px;
+     position: absolute;
+   }
+
+   .rectangle-one {
+     background-color: black;
+     opacity: 0.5;
+     height: 700px;
+     width: 150px;
+     position: absolute;
+
+   }
+
+   .rectangle-two {
+     background-color: black;
+     opacity: 0.5;
+     height: 150px;
+     width: 1600px;
+     position: absolute;
+
+   }
+
+   .rectangle-three {
+     background-color: black;
+     opacity: 0.5;
+     height: 700px;
+     width: 150px;
+     position: absolute;
+     left: 700px;
+   }
+
+   .rectangle-five {
+     background-color: black;
+     opacity: 0.5;
+     height: 700px;
+     width: 100px;
+     position: absolute;
+     left: 1420px;
+   }
+
+
+   .rectangle-seven {
+     background-color: black;
+     opacity: 0.5;
+     height: 150px;
+     width: 1600px;
+     position: absolute;
+     margin-top: 400px;
+
+   }
+
+   /* Text */
+
+   body {
+   font-family: Arial;
+    background-color:rgb(135,29,29)
+   }
+   h1 {
+      color: rgb(249, 245, 245);
+      font-size: 54px;
+      position: absolute;
+   }
+   .p {
+   color:rgb(129, 134, 138);
+   font-size: 25px;
+   position: absolute;
+   margin-top: 450px;
+   left: 50px;
+   }
+   /* image */
+
+   .image-one{
+     height: 300px;
+     weight: 300px;
+     position: absolute;
+     margin-top: 130px;
+     left: 250px;
+   }
+
+   .image-two{
+     height: 300px;
+     weight: 300px;
+     position: absolute;
+     margin-top: 130px;
+     left: 850px;
+   }
