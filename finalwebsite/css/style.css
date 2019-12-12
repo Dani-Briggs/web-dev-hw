@@ -4,32 +4,22 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: rgb(4, 4, 4);
 
 }
 
 .hero-image {
   height: 50%;
+  width: 70%;
+  bottom: 40%;
+  right: 13%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-.hero-text {
-  font-family: 'Railway', sans-serif;
-  font-size: 30px;
-  text-align: center;
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #e8baf0;
-  padding: 0.3em;
-  background-color: rgba(5, 5, 5, 0.5);
-  border-width: 0.5em;
-  border-style: solid;
-  border-color: #290549;
-}
+
 
 header {
     position: sticky;
