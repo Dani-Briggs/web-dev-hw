@@ -1,15 +1,16 @@
-# Assignment 12
+# Final
 ## Dani Briggs
 
-Who was your imaginary client? How did they describe their site needs?
 
- My client is a bakery in Montana. Their site needs to show off their work and provide infomation to get them to the bakery.
+Did you learn anything new about web development (ie using GitHub, version control, repositories)?
 
-What is the difference between display: block, display: inline, and display: inline-block?
+I learned that CSS can make things a lot easier when it comes to design.
 
-Inline takes up all the horizontal space of the display and ingores the margin property. Inline-block is like inline but forces the display to respect the margin. Block turns elements into inline or inline-block.
+Did you learn anything new about web design (ie using media, color, fonts)?
+
+I learn new ways to place media into my website, like Iframes.
 
 
-Free Response: Summarize your work cycle for this assignment
+Free Response: Summarize your work cycle for this assignment.
 
-First, I setup the indexes and readme. Then I gathered my images. I started with the hero image, then the nav bar and finally the main container. 
+I gather some of my artwork to put on my website. I started with my header/hero image and used a gif I made to make something cool. I made the gallery page and put and adjusted my art. I also change the color of my nav bar to match the gif. 
